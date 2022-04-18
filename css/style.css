@@ -1943,6 +1943,17 @@ Margin Right
   z-index: -1;
 }
 
+
+.bottom-text{
+  z-index: 1;
+  position: absolute;
+}
+
+.bottom-coins{
+  z-index: -999;
+
+}
+
 /*---------------------------------------------------------------------
                               Header
 ---------------------------------------------------------------------*/
@@ -1967,7 +1978,7 @@ header .navbar {
 
 header .navbar-brand img {
   position: fixed;
-  height: 190px;
+  height: 120px;
 }
 
 header .navbar-light .nav-item {
