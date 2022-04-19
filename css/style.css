@@ -495,7 +495,8 @@ a.active {
 a,
 a:hover,
 a:focus {
-  color: #b3a9a8;
+  color: #000000;
+;
   -webkit-transition: all 250ms ease-in-out 0s;
   -moz-transition: all 250ms ease-in-out 0s;
   -ms-transition: all 250ms ease-in-out 0s;
@@ -2971,7 +2972,7 @@ p {
   opacity: 0;
   color: #ffffff;
   font-weight: 600;
-  font-size: 21px;
+  font-size: 17px;
   line-height: 1.8;
   margin: 0 0 1.25em;
   transform: translateY(-1em);
@@ -4123,7 +4124,7 @@ Teams 3
       About
 *************************/
 .iq-about-bg {
-  height: 100vh;
+  height: 100%;
   background-color: #000;
   background-attachment: fixed;
 }
@@ -4141,7 +4142,7 @@ Teams 3
 
 .iq-about-bg2 {
   background-color: #000;
-  height: 100vh;
+  height: 100%;
 }
 
 .iq-about-bg3 {
