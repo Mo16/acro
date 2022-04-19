@@ -331,7 +331,9 @@ html {
   /* Text styles */
   text-align: center;
 
-  background:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/bg.jpg);
+  /* background:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/bg.jpg);
+   */
+   background-color: #000;
 
   background-size: cover;
   background-position: center center;
@@ -2240,7 +2242,7 @@ header .navbar-brand img {
 
 .nav-img{
   position: fixed;
-  width: 150px;
+  width: 100px;
   z-index: 0;
   padding: 20px;
 }
@@ -2406,14 +2408,15 @@ header.menu-sticky {
   z-index: 999;
   height: 100%;
   display: inline-block;
-  background-image: url('../images/01.png');
+  /* background-image: url('../images/01.png'); */
 }
 
 .banner-info {
 
 
-  background-image: url('../images/bg.jpg');
-
+  /* background-image: url('../images/bg.jpg');
+   */
+  background-color: #000;
 }
 
 .iq-banner .iq-countdown {
