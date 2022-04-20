@@ -2,7 +2,7 @@
 
 MAIN: 020108
 
-BUTTNS: b3a9a8
+BUTTNS: BD9536
 
 NAVBAR: 020108
 
@@ -14,7 +14,9 @@ TIMELINE: 0e3190
 -----------------------------------------------------------------------*/
 
 
+.centered{
 
+}
 /*--------------------------------------------------------------
 	10. Social
 --------------------------------------------------------------*/
@@ -302,7 +304,7 @@ html {
 
 
 .token-card{
-  background-color: #000;
+  background-color: #00000000;
   padding: 20px;
   border-radius: 15px;
 
@@ -390,7 +392,7 @@ html {
 .hero2 .hero-inner2{
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
+  margin-top: 300px;
   padding: 20px;
   display: table;
 }
@@ -456,19 +458,19 @@ html {
 
 
 *::-moz-selection {
-  background: #b3a9a8;
+  background: #BD9536;
   color: #fff;
   text-shadow: none;
 }
 
 ::-moz-selection {
-  background: #b3a9a8;
+  background: #BD9536;
   color: #fff;
   text-shadow: none;
 }
 
 ::selection {
-  background: #b3a9a8;
+  background: #BD9536;
   color: #fff;
   text-shadow: none;
 }
@@ -614,7 +616,7 @@ hr {
 }
 
 #back-to-top .top:hover {
-  background: #b3a9a8;
+  background: #BD9536;
   color: #fff;
   -webkit-box-shadow: 0px 0px 30px 0px rgba(34, 34, 34, 0.1);
   -moz-box-shadow: 0px 0px 30px 0px rgba(34, 34, 34, 0.1);
@@ -768,7 +770,7 @@ hr {
   font-weight: 800;
   font-size: 16px;
   position: relative;
-  background: #b3a9a8;
+  background: #BD9536;
   font-family: 'Helvetica', cursive;
   display: inline-block;
   -webkit-border-radius: 90px;
@@ -792,7 +794,7 @@ hr {
 .button.bt-white:hover,
 .button.bt-white:focus {
   color: #000000;
-  background: #b3a9a8;
+  background: #BD9536;
   outline: none;
 }
 
@@ -820,7 +822,7 @@ hr {
   text-align: center;
   display: inline-block;
   color: #fff;
-  background: #b3a9a8;
+  background: #BD9536;
   border-radius: 50%;
   border: none;
   transition: box-shadow 400ms cubic-bezier(0.2, 0, 0.7, 1), -webkit-transform 200ms cubic-bezier(0.2, 0, 0.7, 1);
@@ -1691,7 +1693,7 @@ Margin Right
 }
 
 .iq-font-yellow {
-  color: #b3a9a8;
+  color: #BD9536;
 }
 
 /*---------------------------------------------------------------------
@@ -1725,7 +1727,7 @@ Margin Right
 }
 
 .yellow-bg {
-  background: #b3a9a8;
+  background: #BD9536;
 }
 
 /*---------------------------------------------------------------------
@@ -2169,7 +2171,7 @@ Margin Right
   left: 0;
   width: 50px;
   height: 3px;
-  background: #b3a9a8;
+  background: #BD9536;
   bottom: 0;
 }
 
@@ -2186,7 +2188,7 @@ Margin Right
   left: 0;
   width: 40px;
   height: 4px;
-  background: #b3a9a8;
+  background: #BD9536;
   display: inline-block;
 }
 
@@ -2244,7 +2246,7 @@ header .navbar-brand img {
 
 .nav-img{
   position: fixed;
-  width: 100px;
+  width: 80px;
   z-index: 0;
   padding: 20px;
 }
@@ -2272,7 +2274,7 @@ header .navbar-light .navbar-nav .nav-link:before {
   bottom: -3px;
   left: 50%;
   margin-left: -3px;
-  background: #b3a9a8;
+  background: #BD9536;
   height: 6px;
   width: 6px;
   border-radius: 90px;
@@ -2287,7 +2289,7 @@ header .navbar-light .navbar-nav .nav-link:before {
 header .navbar-light .navbar-nav .nav-link:hover,
 header .navbar-light .navbar-nav .nav-link:focus,
 header .navbar-light .navbar-nav .nav-item .nav-link.active {
-  color: #b3a9a8;
+  color: #BD9536;
 }
 
 header .navbar-light .navbar-nav .nav-link:hover:before,
@@ -2325,7 +2327,7 @@ header.menu-sticky {
 
 .dropdown-item.active,
 .dropdown-item:active {
-  background: #b3a9a8;
+  background: #BD9536;
 }
 
 /*Login*/
@@ -2376,16 +2378,16 @@ header.menu-sticky {
   height: 40px;
   line-height: 40px;
   font-size: 16px;
-  color: #b3a9a8;
+  color: #BD9536;
   background: transparent;
-  border: 1px solid #b3a9a8;
+  border: 1px solid #BD9536;
   text-align: center;
   border-radius: 50%;
 }
 
 .iq-login .modal-footer .iq-media-blog li a:hover {
-  background: #b3a9a8;
-  border-color: #b3a9a8;
+  background: #BD9536;
+  border-color: #BD9536;
   color: #fff;
 }
 
@@ -2413,13 +2415,7 @@ header.menu-sticky {
   /* background-image: url('../images/01.png'); */
 }
 
-.banner-info {
 
-
-  /* background-image: url('../images/bg.jpg');
-   */
-  background-color: #000;
-}
 
 .iq-banner .iq-countdown {
   background: #020108;
@@ -2502,7 +2498,7 @@ header.menu-sticky {
 }
 
 .iq-banner .iq-countdown .list-inline li a:hover {
-  color: #b3a9a8;
+  color: #BD9536;
 }
 
 .iq-progress-bar-text {
@@ -2524,7 +2520,7 @@ header.menu-sticky {
 }
 
 .iq-progress-bar>span {
-  background: #b3a9a8 none repeat scroll 0 0;
+  background: #BD9536 none repeat scroll 0 0;
   display: block;
   height: 100%;
   width: 0;
@@ -2567,7 +2563,7 @@ header.menu-sticky {
 }
 
 .iq-banner-2 .iq-countdown .list-inline li a:hover {
-  color: #b3a9a8;
+  color: #BD9536;
 }
 
 /* Canvas Banner */
@@ -2664,13 +2660,13 @@ header.menu-sticky {
 /* Fancy box 2 */
 .fancy-box {
   text-align: center;
-  border: 1px solid #b3a9a8;
+  border: 1px solid #BD9536;
   border-radius: 10px;
 }
 
 .fancy-box .heading {
   padding: 20px;
-  background: #b3a9a8;
+  background: #BD9536;
   border-radius: 10px 10px 0 0;
 }
 
@@ -2721,7 +2717,7 @@ header.menu-sticky {
   position: absolute;
   height: 2px;
   width: 100%;
-  background: #b3a9a8;
+  background: #BD9536;
 }
 
 .iq-tranding-Platform .nav-tabs .nav-link i {
@@ -2740,7 +2736,7 @@ header.menu-sticky {
 .nav-tabs .nav-link:focus {
   background: #020108;
   border: none;
-  color: #b3a9a8;
+  color: #BD9536;
 }
 
 .iq-tranding-Platform .light-bg {
@@ -2827,7 +2823,7 @@ List Style
 
 .trending-2 ul li:after {
   position: absolute;
-  color: #b3a9a8;
+  color: #BD9536;
   content: "";
   font-family: 'FontAwesome';
   left: 0;
@@ -3344,7 +3340,7 @@ Token Sale
 }
 
 .our-team:hover .team-image {
-  border-color: #b3a9a8;
+  border-color: #BD9536;
 }
 
 .our-team .team-image img {
@@ -3394,8 +3390,8 @@ Token Sale
   border-radius: 50%;
   background-color: #fff;
   font-size: 18px;
-  color: #b3a9a8;
-  border: 3px solid #b3a9a8;
+  color: #BD9536;
+  border: 3px solid #BD9536;
 }
 
 .our-team .team-content {
@@ -3455,7 +3451,7 @@ Token Sale
 }
 
 .our-team-1:hover .team-image {
-  border-color: #b3a9a8;
+  border-color: #BD9536;
 }
 
 .our-team-1 .team-image img {
@@ -3505,8 +3501,8 @@ Token Sale
   border-radius: 50%;
   background-color: #fff;
   font-size: 18px;
-  color: #b3a9a8;
-  border: 3px solid #b3a9a8;
+  color: #BD9536;
+  border: 3px solid #BD9536;
 }
 
 .our-team-1 .team-content {
@@ -3558,7 +3554,7 @@ Teams 3
   width: 80%;
   height: 80%;
   border-radius: 50%;
-  border: 2px solid #b3a9a8;
+  border: 2px solid #BD9536;
   position: relative;
   margin: 0 auto;
   transition: all 0.5s ease 0s;
@@ -3634,7 +3630,7 @@ Teams 3
 .iq-our-team-2 .team-blog .team-social ul li a {
   font-size: 16px;
   padding: 0 5px;
-  color: #b3a9a8;
+  color: #BD9536;
   display: inline-block;
   float: none;
   line-height: 45px;
@@ -3713,7 +3709,7 @@ Teams 3
 
 .iq-blog-detail a:hover,
 .iq-blog-detail .blog-title a:hover h5 {
-  color: #b3a9a8;
+  color: #BD9536;
 }
 
 .iq-blog-meta {
@@ -3825,7 +3821,7 @@ Teams 3
   -webkit-transition: all 0.25s ease-in-out 0s;
   -moz-transition: all 0.25s ease-in-out 0s;
   transition: all 0.25s ease-in-out 0s;
-  background: #b3a9a8;
+  background: #BD9536;
   border-radius: 90px;
 }
 
@@ -3903,8 +3899,8 @@ Teams 3
 
 .contact-form .section-field input:focus,
 .contact-form .section-field.textarea textarea:focus {
-  border: 1px solid #b3a9a8;
-  background: #b3a9a8;
+  border: 1px solid #BD9536;
+  background: #BD9536;
   color: #fff;
   box-shadow: none;
   outline: none;
@@ -4001,8 +3997,8 @@ Teams 3
 }
 
 .info-share li a:hover {
-  background: #b3a9a8;
-  border-color: #b3a9a8;
+  background: #BD9536;
+  border-color: #BD9536;
   color: #fff;
 }
 
@@ -4075,7 +4071,7 @@ Teams 3
 }
 
 .owl-carousel .owl-nav i:hover {
-  background: #b3a9a8;
+  background: #BD9536;
   color: #fff;
 }
 
@@ -4111,13 +4107,13 @@ Teams 3
 }
 
 .owl-carousel.owl-theme .owl-dots .owl-dot:hover span {
-  background: #b3a9a8;
-  border: 1px solid #b3a9a8;
+  background: #BD9536;
+  border: 1px solid #BD9536;
 }
 
 .owl-carousel.owl-theme .owl-dots .owl-dot.active span {
-  background: #b3a9a8;
-  border: 1px solid #b3a9a8;
+  background: #BD9536;
+  border: 1px solid #BD9536;
 }
 
 /*************************
@@ -4125,32 +4121,50 @@ Teams 3
 *************************/
 .iq-about-bg {
   height: 100%;
-  background-color: #000;
+  /* background-color: #000;
+   */
+   background-image: url('../images/coinsfalling.gif');
+     background-attachment: fixed;
+
   background-attachment: fixed;
 }
 
 .tokenomics {
   height: 100%;
-  background-color: #000;
+  /* background-color: #000; */
+  background-image: url('../images/coinsfalling.gif');
+    background-attachment: fixed;
+
 }
 
 .iq-about-bg1 {
-  background-color: #000;
+  /* background-color: #000; */
+  background-image: url('../images/coinsfalling.gif');
+    background-attachment: fixed;
 
   height: 100%;
 }
 
 .iq-about-bg2 {
-  background-color: #000;
+  /* background-color: #000; */
   height: 100%;
+   background-image: url('../images/coinsfalling.gif');
+     background-attachment: fixed;
+
 }
 
 .iq-about-bg3 {
-  background-color: #000;
+  /* background-color: #000; */
   height: 100%;
+   background-image: url('../images/coinsfalling.gif');
+     background-attachment: fixed;
+
 }
 .bg-change{
-  background-color: #000;
+  /* background-color: #000; */
+  background-image: url('../images/coinsfalling.gif');
+    background-attachment: fixed;
+
 }
 
 .iq-about ul li {
@@ -4201,7 +4215,7 @@ Teams 3
   left: 50%;
   width: 50px;
   margin-left: -25px;
-  background: #b3a9a8;
+  background: #BD9536;
   height: 2px;
 }
 
@@ -4241,7 +4255,7 @@ Teams 3
   height: 80px;
   text-align: center;
   font-size: 38px;
-  color: #b3a9a8;
+  color: #BD9536;
   border-radius: 100%;
   line-height: 2.1;
   z-index: 9;
@@ -4297,7 +4311,7 @@ Teams 3
   height: 13px;
   border-radius: 50%;
   border: 2px solid #f7f7f7;
-  background: #b3a9a8;
+  background: #BD9536;
   margin: 0 auto;
   position: absolute;
   top: 0;
@@ -4528,7 +4542,7 @@ Footer 2
   float: left;
   text-align: center;
   margin-right: 15px;
-  color: #b3a9a8;
+  color: #BD9536;
 }
 
 .iq-footer1 .iq-contact-box .iq-icon i {
@@ -4553,7 +4567,7 @@ Footer 2
 }
 
 .iq-footer1 .about-us li a:hover {
-  color: #b3a9a8;
+  color: #BD9536;
 }
 
 /*Newsletter*/
@@ -4607,13 +4621,13 @@ Footer 2
 
 .iq-footer .footer-menu li a:hover {
   background: rgba(255, 255, 255, 0.2);
-  color: #b3a9a8;
+  color: #BD9536;
   padding: 8px 15px;
 }
 
 /*Copyright*/
 .iq-footer .iq-copyright a {
-  color: #b3a9a8;
+  color: #BD9536;
 }
 
 .iq-footer .iq-copyright a:hover {
@@ -4652,8 +4666,8 @@ Footer 2
 }
 
 .iq-footer .iq-media-blog li a:hover {
-  background: #b3a9a8;
-  border-color: #b3a9a8;
+  background: #BD9536;
+  border-color: #BD9536;
   color: #fff;
 }
 
@@ -4671,7 +4685,7 @@ Footer 2
 }
 
 .iq-footer .iq-contact .blog i {
-  color: #b3a9a8;
+  color: #BD9536;
   font-size: 40px;
   line-height: 40px;
   vertical-align: middle;
@@ -4704,7 +4718,7 @@ Feature
   float: left;
   margin-right: 20px;
   text-align: center;
-  border: 1px solid #b3a9a8;
+  border: 1px solid #BD9536;
   transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
@@ -4713,7 +4727,7 @@ Feature
 }
 
 .iq-feature1 .left i {
-  color: #b3a9a8;
+  color: #BD9536;
   font-size: 30px;
   background: #f3f3f3;
   display: block;
@@ -4740,11 +4754,11 @@ Feature
 
 .iq-feature1:hover .left,
 .iq-feature1:hover .left i {
-  border-color: #b3a9a8;
+  border-color: #BD9536;
 }
 
 .iq-feature1:hover .left i {
-  background: #b3a9a8;
+  background: #BD9536;
   color: #000000;
 }
 
@@ -4797,7 +4811,7 @@ Feature
 .iq-feature1 .left.in-brd-1,
 .iq-feature1 .left.in-brd-2,
 .iq-feature1 .left.in-brd-3 {
-  border: 1px solid #b3a9a8;
+  border: 1px solid #BD9536;
 }
 
 .iq-feature1:hover .left.in-brd-1 {
