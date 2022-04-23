@@ -14,22 +14,21 @@ TIMELINE: 0e3190
 -----------------------------------------------------------------------*/
 
 
-.centered{
+.centered {}
 
-}
 /*--------------------------------------------------------------
 	10. Social
 --------------------------------------------------------------*/
 .basr-social-share {
-  position:fixed;
-  top:3em;
-  left:0;
-  right:0;
+  position: fixed;
+  top: 3em;
+  left: 0;
+  right: 0;
   width: 25%;
   display: block;
-  text-align:center;
-  padding:0 auto;
-  margin:5em auto;
+  text-align: center;
+  padding: 0 auto;
+  margin: 5em auto;
 }
 
 .social ul {
@@ -37,6 +36,7 @@ TIMELINE: 0e3190
   padding-left: 0;
   padding-right: 0;
 }
+
 .social ul li {
   border: 5px solid #512e12;
   border-radius: 50%;
@@ -50,6 +50,7 @@ TIMELINE: 0e3190
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
+
 @media only screen and (max-width: 480px) {
   .social ul li {
     border-width: 4px;
@@ -57,9 +58,11 @@ TIMELINE: 0e3190
     height: 45px;
   }
 }
+
 .social ul li:not(:last-child) {
   margin-right: 10px;
 }
+
 .social ul li:before {
   content: '';
   border-radius: 50%;
@@ -82,12 +85,14 @@ TIMELINE: 0e3190
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
+
 @media only screen and (max-width: 480px) {
   .social ul li:before {
     width: 43px;
     height: 43px;
   }
 }
+
 .social ul li:hover {
   border-color: #a33629;
   -webkit-transition: all 0.3s ease 0s;
@@ -95,6 +100,7 @@ TIMELINE: 0e3190
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
+
 .social ul li:hover:before {
   -webkit-shadow: inset 0 0px 3px rgba(163, 54, 41, 0.28), 0px 0px 0px 2px rgba(163, 54, 41, 0.28);
   -ms-box-shadow: inset 0 0px 3px rgba(163, 54, 41, 0.28), 0px 0px 0px 2px rgba(163, 54, 41, 0.28);
@@ -104,6 +110,7 @@ TIMELINE: 0e3190
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
+
 .social ul li:hover i {
   color: #d66557;
   -webkit-stroke-width: 5.3px;
@@ -115,6 +122,7 @@ TIMELINE: 0e3190
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
+
 .social ul li a {
   border-radius: 50%;
   display: block;
@@ -125,6 +133,7 @@ TIMELINE: 0e3190
   height: 60px;
   line-height: 60px;
 }
+
 @media only screen and (max-width: 480px) {
   .social ul li a {
     background-size: cover;
@@ -135,6 +144,7 @@ TIMELINE: 0e3190
     line-height: 45px;
   }
 }
+
 .social ul li a:before {
   content: '';
   background-image: url('https://img.picload.org/image/dcocwcga/border-social-hover.png');
@@ -156,6 +166,7 @@ TIMELINE: 0e3190
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
+
 @media only screen and (max-width: 480px) {
   .social ul li a:before {
     background-size: cover;
@@ -163,6 +174,7 @@ TIMELINE: 0e3190
     height: 30px;
   }
 }
+
 .social ul li a:after {
   content: '';
   background-image: url('https://img.picload.org/image/dcocwcgd/border-social.png');
@@ -183,6 +195,7 @@ TIMELINE: 0e3190
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
+
 @media only screen and (max-width: 480px) {
   .social ul li a:after {
     background-size: cover;
@@ -190,6 +203,7 @@ TIMELINE: 0e3190
     height: 30px;
   }
 }
+
 .social ul li a:hover:before {
   opacity: 1;
   -webkit-transform: translate(-50%, -50%) rotate(360deg);
@@ -200,6 +214,7 @@ TIMELINE: 0e3190
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+
 .social ul li a:hover:after {
   opacity: 0;
   -webkit-transform: translate(-50%, -50%) rotate(360deg);
@@ -210,6 +225,7 @@ TIMELINE: 0e3190
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+
 .social ul li a i {
   color: #ffead3;
   font-size: 23px;
@@ -230,33 +246,41 @@ TIMELINE: 0e3190
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
+
 @media only screen and (max-width: 480px) {
   .social ul li a i {
     font-size: 16px;
   }
 }
+
 .social ul li a i.fa-envelope {
   font-size: 14px;
   top: 48%;
 }
+
 .k2t-footer.dark-style .social li a,
 .dark-style .social li a {
   color: #fff;
 }
+
 .k2t-footer.dark-style .social li a:hover,
 .dark-style .social li a:hover {
   color: #fff;
 }
+
 .basr-social-share.social li:hover a {
   color: #898989;
 }
+
 .basr-social-share.social li a {
   border-width: 0;
   color: #cccccc;
 }
+
 .basr-social-share.social li a:hover {
   color: #898989;
 }
+
 .basr-social-share.social li a span {
   display: none;
 }
@@ -271,6 +295,7 @@ body {
   font-family: "cherish";
   src: url("/fonts/Cherish\ Moment.otf");
 }
+
 @font-face {
   font-family: "avenir";
   src: url("/fonts/avenir.otf");
@@ -303,18 +328,18 @@ html {
 }
 
 
-.token-card{
+.token-card {
   background-color: #00000000;
   padding: 20px;
   border-radius: 15px;
 
 }
 
-.token-card p span{
+.token-card p span {
   font-size: 40px;
 }
 
-.token-card h1{
+.token-card h1 {
   font-size: 60px;
   text-align: center;
 
@@ -335,13 +360,13 @@ html {
 
   /* background:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/bg.jpg);
    */
-   background-color: #000;
+  background-color: #000;
 
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 
-  
+
 
 }
 
@@ -367,29 +392,29 @@ html {
   /* Text styles */
   text-align: center;
 
-  background:linear-gradient(0deg, #000, #000), url(/images/hero.png);
+  background: linear-gradient(0deg, #000, #000), url(/images/hero.png);
 
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 
-  
+
 
 }
 
-.hero2 h2{
+.hero2 h2 {
   font-family: "avenir";
   letter-spacing: 10px;
 }
 
-.hero2 .whale{
-  position:absolute;
-  left:5%;
-  top:23%;
+.hero2 .whale {
+  position: absolute;
+  left: 5%;
+  top: 23%;
   width: 15%;
 }
 
-.hero2 .hero-inner2{
+.hero2 .hero-inner2 {
   margin-left: auto;
   margin-right: auto;
   margin-top: 300px;
@@ -404,8 +429,8 @@ html {
 
 }
 
-.hero2 img{
-    /* Margins */
+.hero2 img {
+  /* Margins */
 
 
 }
@@ -452,9 +477,7 @@ html {
 
 /* RESPONSIVE */
 
-@media (max-width: 1600px) {
-
-}
+@media (max-width: 1600px) {}
 
 
 *::-moz-selection {
@@ -498,7 +521,7 @@ a,
 a:hover,
 a:focus {
   color: #000000;
-;
+  ;
   -webkit-transition: all 250ms ease-in-out 0s;
   -moz-transition: all 250ms ease-in-out 0s;
   -ms-transition: all 250ms ease-in-out 0s;
@@ -766,6 +789,7 @@ hr {
   color: #fff;
   cursor: pointer;
   padding: 10px 30px;
+  margin: 10px;
   border: none;
   font-weight: 800;
   font-size: 16px;
@@ -2202,17 +2226,17 @@ Margin Right
 }
 
 
-.bottom-text{
+.bottom-text {
   z-index: 1;
   position: absolute;
 }
 
-.bottom-coins{
+.bottom-coins {
   z-index: -999;
 
 }
 
-.coins-img{
+.coins-img {
   opacity: 0.7;
 }
 
@@ -2244,9 +2268,9 @@ header .navbar-brand img {
   height: 120px;
 }
 
-.nav-img{
+.nav-img {
   position: fixed;
-  width: 80px;
+  width: 130px;
   z-index: 0;
   padding: 20px;
 }
@@ -2976,7 +3000,7 @@ p {
 }
 
 
-.text-right{
+.text-right {
   text-align: right;
 }
 
@@ -4123,8 +4147,8 @@ Teams 3
   height: 100%;
   /* background-color: #000;
    */
-   background-image: url('../images/coinsfalling.gif');
-     background-attachment: fixed;
+  background-image: url('../images/coinsfalling.gif');
+
 
   background-attachment: fixed;
 }
@@ -4133,14 +4157,14 @@ Teams 3
   height: 100%;
   /* background-color: #000; */
   background-image: url('../images/coinsfalling.gif');
-    background-attachment: fixed;
+  background-attachment: fixed;
 
 }
 
 .iq-about-bg1 {
   /* background-color: #000; */
   background-image: url('../images/coinsfalling.gif');
-    background-attachment: fixed;
+  background-attachment: fixed;
 
   height: 100%;
 }
@@ -4148,22 +4172,23 @@ Teams 3
 .iq-about-bg2 {
   /* background-color: #000; */
   height: 100%;
-   background-image: url('../images/coinsfalling.gif');
-     background-attachment: fixed;
+  background-image: url('../images/coinsfalling.gif');
+  background-attachment: fixed;
 
 }
 
 .iq-about-bg3 {
   /* background-color: #000; */
   height: 100%;
-   background-image: url('../images/coinsfalling.gif');
-     background-attachment: fixed;
+  background-image: url('../images/coinsfalling.gif');
+  background-attachment: fixed;
 
 }
-.bg-change{
+
+.bg-change {
   /* background-color: #000; */
   background-image: url('../images/coinsfalling.gif');
-    background-attachment: fixed;
+  background-attachment: fixed;
 
 }
 
